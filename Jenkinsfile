@@ -1,5 +1,5 @@
 pipeline {
-    agent any {
+    agent any 
         
         tools {
             jdk 'jdk-21'
@@ -52,5 +52,4 @@ pipeline {
                 echo 'Build completed.'
             }
         }
-    }
 }
